@@ -97,6 +97,36 @@ section h3 {
 .participants-list li {
   margin-bottom: 5px;
   word-break: break-word;
+  list-style: none; /* Hide bullet points */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2px 0;
+}
+
+.participant-email {
+  flex-grow: 1;
+}
+
+.delete-btn {
+  background: #dc3545;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 8px;
+  transition: background-color 0.2s;
+}
+
+.delete-btn:hover {
+  background: #c82333;
 }
 
 .form-group {
